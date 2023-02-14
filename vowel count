@@ -1,0 +1,8 @@
+def get_count(y):
+  count = 0
+  for x in y:
+    if x in 'aeiou':
+      count +=1
+  return count
+  
+get_count('iyguyfuhjhjo')
